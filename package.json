@@ -1,0 +1,25 @@
+{
+  "name": "haproxy-autoscaling",
+  "version": "0.0.1",
+  "description": "HAProxy autoscaling with ec2",
+  "main": "update-haproxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "update-haproxy": ".bin/update-haproxy.js"
+  },
+  "keywords": [
+    "haproxy",
+    "ecs",
+    "aws",
+    "autoscaling"
+  ],
+  "author": "fabien0102",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.2.42",
+    "commander": "^2.9.0",
+    "lodash": "^4.6.1"
+  }
+}
